@@ -1,0 +1,19 @@
+# ---------- Core LangChain ----------
+langchain
+langchain-core
+
+# ---------- Google Gemini (ChatModels + Embeddings) ----------
+langchain-google-genai
+google-generativeai>=0.7.0
+
+# ---------- HuggingFace (optional for local or endpoint models) ----------
+langchain-huggingface
+transformers>=4.35.0
+huggingface-hub
+
+# ---------- Environment Variables ----------
+python-dotenv
+
+# ---------- General ML Utils ----------
+numpy
+scikit-learn
